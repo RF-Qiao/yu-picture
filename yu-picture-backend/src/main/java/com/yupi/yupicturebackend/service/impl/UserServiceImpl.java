@@ -42,11 +42,7 @@ import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Collectors;
 
-/**
- * @author 李鱼皮
- * @description 针对表【user(用户)】的数据库操作Service实现
- * @createDate 2024-12-09 20:03:03
- */
+
 @Service
 @Slf4j
 public class UserServiceImpl extends ServiceImpl<UserMapper, User>
