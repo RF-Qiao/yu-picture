@@ -1,6 +1,6 @@
 <template>
   <div id="userLoginPage">
-    <h2 class="title">鱼皮云图库 - 用户登录</h2>
+    <h2 class="title">felix图库 - 用户登录</h2>
     <div class="desc">企业级智能协同云图库</div>
     <a-form :model="formState" name="basic" autocomplete="off" @finish="handleSubmit">
       <a-form-item name="userAccount" :rules="[{ required: true, message: '请输入账号' }]">
@@ -20,7 +20,7 @@
         <RouterLink to="/user/register">去注册</RouterLink>
       </div>
       <a-form-item>
-        <a-button type="primary" html-type="submit" style="width: 100%">登录</a-button>
+        <a-button type="primary" html-type="submit" style=" width: 100%">登录</a-button>
       </a-form-item>
     </a-form>
   </div>

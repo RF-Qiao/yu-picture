@@ -5,7 +5,7 @@
         <router-link to="/">
           <div class="title-bar">
             <img class="logo" src="../assets/logo.png" alt="logo" />
-            <div class="title">鱼皮云图库</div>
+            <div class="title">felix图库</div>
           </div>
         </router-link>
       </a-col>
@@ -90,8 +90,8 @@ const originItems = [
   },
   {
     key: 'others',
-    label: h('a', { href: 'https://www.codefather.cn', target: '_blank' }, '编程导航'),
-    title: '编程导航',
+    label: h('a', { href: 'https://felixhub.icu/', target: '_blank' }, '个人博客'),
+    title: '个人博客',
   },
 ]
 
